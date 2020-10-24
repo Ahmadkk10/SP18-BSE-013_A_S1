@@ -1,0 +1,789 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#wrap{
+border: solid black;
+}
+
+#header{
+background-color: black;
+}
+#nav-bar{
+background-image: url(./header1.jpg);
+background-size: cover;
+background-position: center;  
+background-color: black;
+width: 95%;
+height: 100px;
+margin-right: 20px;
+margin-left: 20px;
+}
+.dropbtn {
+    background-color:black;
+    color: #F5F5F5;
+    margin-top: 10px;
+    padding: 3px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+    margin-left: 210px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    font: bold;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    color: white;
+  }
+  form.example button {
+    float: right;
+    width: 4%;
+    height: 40px;
+    background: black;
+    color: #F5F5F5;
+    font-size: 22px;
+    border: black;
+
+  }
+  
+  form.example button:hover {
+    color: white;
+  }
+  .example{
+      margin: auto;
+      max-width: 1000px;
+  }
+  form.example2 button {
+    float: right;
+    width: 4%;
+    height: 38px;
+    background: black;
+    color: #F5F5F5;
+    font-size: 22px;
+    border: black;
+
+  }
+  
+  form.example2 button:hover {
+    color: white;
+  }
+  .example2{
+      margin: auto;
+      max-width: 1000px;
+      
+  }
+
+  form.example3 button {
+    float: right;
+    width: 4%;
+    height: 38px;
+    background: black;
+    color: #F5F5F5;
+    font-size: 22px;
+    border: black;
+    padding-right: 14px;
+    padding-left: 4px;
+  }
+  
+  form.example3 button:hover {
+    color: white;
+  }
+  .example3{
+      margin: auto;
+      max-width: 1000px;
+  }
+#link{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+      position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+ul {
+    list-style-type: none;
+    margin-left: 80px;
+  }
+  
+  li {
+    float: left;
+
+  }
+  
+  li a {
+    display: block;
+    color: #F5F5F5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+li a:hover{
+    color: white;
+}
+#container1-1{
+    margin-top: 5px;
+    }
+
+#links{
+    width: 100%;
+    height: 35px;
+    padding: 5px 7px;
+}
+#links ul {
+    list-style-type: none;
+  
+    margin-left: 110px;
+  }
+  
+  #links li {
+    float: left;
+  
+  }
+  
+ #links li a {
+    display: block;
+    color: black;
+    text-align: center;
+ 
+    text-decoration: none;
+    padding: 6px;
+    margin: 1px;
+  }
+#links li a:hover{
+    color: red;
+}
+
+#container::after{
+content: " ";
+display: block;
+clear: both;
+}
+#container{
+margin-top: 5px;
+}
+#left-panal{
+
+height: auto;
+width: 30%;
+margin-right: 2px;
+margin-left: 16px;
+float: left;
+text-align: center;
+margin-bottom: 38px;
+margin-left: 45px;
+margin-right: 6px;
+}
+#left-panal a{
+    font: bold;
+    font-size: 41px;
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#left-panal a:hover{
+    color: red;
+}
+#img a{
+    border: 4px solid black;
+    margin-top: 40px;
+    height: 300px;
+    width: 50%; 
+    float: left;  
+    background-image: url(./pic1.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+#img2 a{
+    border: 4px solid black;
+    margin-top: 40px;
+    height: 300px;
+    width: 46%;
+    float: right;
+    background-image: url(./pic1.0.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+#text p {
+    text-align: left;
+    justify-content: left;
+    padding: 6px;
+}
+#text p a{
+    font: bolder;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#text h1 {
+    text-align: left;
+    justify-content: left;
+}
+#text h1 a{
+    font: bolder;
+    font-size: 18px;
+
+}
+
+#head1 h1 a{
+    font-size: 28px;
+    float: left;
+    text-align: left;
+}
+#center-panal{
+  
+    height: auto;
+    width: 35%;
+    margin-right: 2px;
+    float: left;
+    margin-right: 5px;
+}
+#img3 a{
+    border: 4px solid black;
+    margin-top: 40px;
+    height: 250px;
+    width: 85%;
+    margin-top: 10px;
+    margin-left: 40px;
+    float: left;
+    background-image: url(./pic2.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+#heading1{
+    margin-left: 36px;
+}
+#heading1 h1{
+    font-size: 25px;
+    text-decoration: none;
+}
+#heading1 h1 a{
+    text-decoration: none;
+    color: black;
+}
+#heading1 h1 a:hover{
+  color: red;
+}
+#heading2{
+    margin-left: 36px;
+}
+#heading2 h1{
+    font-size: 22px;
+    text-decoration: none;
+}
+#heading2 h1 a{
+    text-decoration: none;
+    color: black;
+}
+#heading2 h1 a:hover{
+    color: red;
+}
+#img4 a{
+    border: 4px solid black;
+    margin-top: 40px;
+    height: 250px;
+    width: 85%;
+    margin-top: 10px;
+    margin-left: 40px;
+    float: left;
+    background-image: url(./pic3.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+#lisitems{
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 18px;
+}
+#lisitems ul li a{
+  color: black;
+}
+#lisitems ul li a:hover{
+    color: red;
+}  
+#right-side{
+height: auto;
+float: left;
+width: 28%;
+margin-right: 10px;
+margin-right: 25px;
+}
+#right-side a{
+    font: bold;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#right-side a:hover{
+    color:red;
+}
+#img5 a{
+    border: 4px solid black;
+    height: 310px;
+    width: 85%;
+    margin-top: 10px;
+    margin-left: 40px;
+    float: left;
+    background-image: url(./pic4.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+#heading3{
+    margin-left: 36px;
+}
+#heading3 h1{
+    font-size: 28px;
+    text-decoration: none;
+}
+#heading3 h1 a{
+    text-decoration: none;
+    color: black;
+}
+#text1 p {
+    text-align: left;
+    justify-content: left;
+   
+    padding: 6px;
+}
+#text1{
+
+    margin-left: 35px;
+}
+#text1 p a{
+    font: bolder;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+  #container2::after{
+    content: " ";
+    display: block;
+    clear: both;
+    }
+    #container2{
+    margin-top: 5px;
+    }
+    #left-panal2{
+    height: auto;
+    width: 30%;
+    margin-right: 6px;
+    margin-left: 45px;
+    float: left;
+    text-align: center;
+    margin-bottom: 38px;
+    }
+    #left-panal2 a{
+        font: bold;
+        font-size: 41px;
+        text-decoration: none;
+        color: black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    #left-panal2 a:hover{
+        color: red;
+    }
+    #left-panal2 h1{
+        font: bold;
+        font-size: 22px;
+        text-decoration: none;
+        color: black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        float: left;
+        text-align: left;
+        background-color: grey;
+        width: 99.7%;
+ 
+    }
+
+    #text2 p {
+        text-align: left;
+        justify-content: left;
+        padding: 6px;
+    }
+    #text2 p a{
+        font: bolder;
+        font-size: 19px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #center-panal2{
+        height: auto;
+        width: 35%;
+        margin-right: 5px;
+        float: left;
+    }
+    #he1{
+        margin-right: 25px;
+        margin-left: 39px;
+    }
+    #he1 h1{
+        font: bold;
+        font-size: 22px;
+        text-decoration: none;
+        color: black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        float: left;
+        text-align: left;
+        background-color: grey;
+        width: 98.9%;
+    }
+    #img6 a{
+        border: 4px solid black;
+        margin-top: 40px;
+        height: 250px;
+        width: 85%;
+        margin-top: 0.5px;
+        margin-left: 40px;
+        float: left;
+        background-image: url(./pic5.jpg);
+        background-size: cover;
+        background-position: center;   
+    }
+    #heading4{
+        margin-left: 36px;
+    }
+    #heading4 h1{
+        font-size: 28px;
+        text-decoration: none;
+    }
+    #heading4 h1 a{
+        text-decoration: none;
+        color: black;
+    }
+    #heading4 h1 a:hover{
+        color: red;
+    }
+    #text3 p {
+        text-align: left;
+        justify-content: left;
+        padding: 6px;
+    }
+    #text3{
+    
+        margin-left: 35px;
+    }
+    #text3 p a{
+        text-decoration: none;
+        color: black;
+        font: bolder;
+        font-size: 19px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #text3 p a:hover{
+        color: red;
+    }
+
+    #right-side2{
+    height: auto;
+    float: left;
+    width: 28%;
+    margin-right: 25px;
+    }
+    #he2 h1{
+        font: bold;
+        font-size: 22px;
+        text-decoration: none;
+        color: black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        float: left;
+        text-align: left;
+        background-color: grey;
+        width: 100%;
+    }
+    #text4 p {
+        text-align: left;
+        justify-content: left;
+        padding: 6px;
+    }
+
+    #text4 p a{
+        text-decoration: none;
+        color: black;
+        font: bolder;
+        font-size: 19px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #text4 p a:hover{
+        color: red;
+    }
+  
+
+
+
+
+
+
+    #container3::after{
+        content: " ";
+        display: block;
+        clear: both;
+        }
+        #container3{
+        margin-top: 5px;
+        }
+        #left-panal3{
+        
+        height: auto;
+        width: 30%;
+        margin-right: 6px;
+        margin-left: 45px;
+        float: left;
+        text-align: center;
+        margin-bottom: 38px;
+        }
+        #card1{
+            text-align: left;
+            justify-content: right;
+        
+        }
+        #card1 p{
+            font-size: 25px;
+            float: left;
+          
+            }
+            .textwrap1{
+                float: left;
+                padding-right:15px;
+                margin-bottom: 15px;
+            }
+    
+  
+        #he3 h1{
+            font: bold;
+            font-size: 22px;
+            text-decoration: none;
+            color: black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            float: left;
+            text-align: left;
+            background-color: grey;
+            width: 92.6%;
+        }
+        #left-panal3 a{
+            font: bold;
+            font-size: 41px;
+            text-decoration: none;
+            color: black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        
+        }
+        #left-panal3 a:hover{
+            color: red;
+        }
+        #card p a{
+            width: 5%;
+            font-size: 20px;
+        }
+
+        #img7-0 a{
+            border: 4px solid black;
+            margin-top: 40px;
+            height: 250px;
+            width: 91%;
+            margin-top: 0.5px;
+            float: left;
+            background-image: url(./pic6.jpg);
+            background-size: cover;
+            background-position: center;   
+        }
+        #head1-1{
+            width: 100%;
+        }
+        #head1-1 h1{
+            text-decoration: none;
+            text-align: left;
+            margin-top: 5px;
+            width: 88%;
+            
+        }
+        #head1-1{
+            margin-right: 38px;
+        }
+        #head1-1 h1 a{
+            font-size: 27px;
+            text-decoration: none;
+            color: black;
+        }
+        #head1-1 h1 a:hover{
+            color: red;
+        }
+        
+        #center-panal3{
+          
+            height: auto;
+            width: 35%;
+            margin-right: 5px;
+            float: left;
+            
+        }
+        #center-panal3 a{
+            color: black;
+        }
+        #center-panal3 a:hover{
+            color:red;
+        }
+        
+        #he4 h1{
+            font: bold;
+            font-size: 22px;
+            text-decoration: none;
+            color: black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            float: left;
+            text-align: left;
+            background-color: grey;
+            width: 96.7%;
+        }
+        #img7-1 a{
+            border: 4px solid black;
+            margin-top: 40px;
+            height: 300px;
+            width: 95%;
+            margin-top: 0.5px;
+            float: left;
+            background-image: url(./pic7.jpg);
+            background-size: cover;
+            background-position: center;   
+        }
+        #head1-2{
+            width: 100%;
+        }
+        #head1-2 h1{
+            text-decoration: none;
+            text-align: left;
+            margin-top: 5px;
+            width: 88%;
+            margin-left: 14px;
+        }
+        #head1-2 h1 a{
+            font-size: 27px;
+            text-decoration: none;
+            color: black;
+        }
+        #head1-2 h1 a:hover{
+            color: red;
+        }
+        #card2{
+            text-align: left;
+            justify-content: right;
+        
+        }
+        #card2 p{
+            font-size: 25px;
+            float: left;
+          
+            }
+            .textwrap2{
+                float: left;
+                padding-right:15px;
+                margin-bottom: 15px;
+            }
+    
+
+        #right-side3{
+        height: auto;
+        float: left;
+        width: 28%;
+        margin-right: 25px;
+      
+        }
+        #right-side3 a{
+            font: bold;
+            font-size: 30px;
+            text-decoration: none;
+            color: black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        
+        }
+        #right-side3 a:hover{
+            color:red;
+        }
+        #he5 h1{
+            font: bold;
+            font-size: 22px;
+            text-decoration: none;
+            color: black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            float: left;
+            text-align: left;
+            background-color: grey;
+            width: 93.4%;
+        }
+        #vid1 a video{
+            border: 4px solid black;
+            height: 100%;
+            width: 91.5%;
+            margin-top: 0.5px;
+            float: left;
+            
+    
+        }
+        #head1-2 h1{
+            text-decoration: none;
+            text-align: left;
+            margin-top: 5px;
+            width: 88%;
+            
+        }
+        #head1-2{
+            margin-right: 38px;
+        }
+        #head1-2 h1 a{
+            font-size: 28px;
+            text-decoration: none;
+            color: black;
+        }
+        #head1-2 h1 a:hover{
+            color: red;
+        }
+        #card3{
+            text-align: left;
+            justify-content: right;
+        
+        }
+        #card3 p{
+            font-size: 25px;
+            float: left;
+          
+            }
+        .textwrap3{
+            float: left;
+            padding-right:15px;
+            margin-bottom: 15px;
+        }
+
